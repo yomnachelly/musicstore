@@ -1,0 +1,60 @@
+.navbar1{
+    height: 35px;
+    border-bottom: 4px groove ; 
+   
+}
+.navbar {
+    border-bottom: 3px groove ; /* Bordure inférieure de type groove */
+  }
+  
+
+.btn1 {
+    background: none; /* Supprime le fond du bouton */
+    border: none; /* Supprime la bordure du bouton */
+    color: white; /* Couleur du texte en blanc */
+    font-size: 18px; /* Taille du texte */
+    
+    padding: 3px; /* Retire tout padding interne */
+    
+  }
+  h6{
+    background: none; /* Supprime le fond du bouton */
+    border: none; /* Supprime la bordure du bouton */
+    color: white; /* Couleur du texte en blanc */
+    font-size: 18px; /* Taille du texte */
+    display: flex; /* Utilisation de Flexbox pour centrer le contenu */
+    justify-content: center; /* Centre horizontalement */
+    align-items: center; /* Centre verticalement */
+    padding: 3px; /* Retire tout padding interne */
+    cursor: pointer; /* Change le curseur au survol */
+  }
+  
+
+  .btn1 i {
+    font-size: 20px; /* Taille de l'icône */
+    background: none; 
+    border: none;
+  }
+  
+  .logo-img {
+    width: 100px;
+    height: auto; /* Garder les proportions de l'image */
+  }
+  .panier{
+    background-color: lightblue;
+   
+    top: 0; /* Positionné en haut de la page */
+    margin-right: 0; /* Aligné à gauche */
+    width: 33.33%; /* Prend un tiers de la largeur de la fenêtre */
+    max-width: 500px; /* Optionnel : largeur maximale */
+    height: 100%; /* Prend toute la hauteur de la fenêtre */
+ 
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Ombre pour un effet de profondeur */
+    transition: transform 0.3s ease; /* Transition pour un effet doux */
+  
+
+}
+.tete{
+    border-bottom:4px groove  ;
+}
